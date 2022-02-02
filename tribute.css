@@ -1,0 +1,77 @@
+html {
+    background-image: radial-gradient( #00020c 20%, #070916 40%, #08012b 40%);
+}
+
+body {
+    font-family: monospace;
+    color: #030516;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#title {
+    color: #08012b;
+    margin-top: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#img img {
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border-left: 2px solid #030d42;
+    border-right: 2px solid #030d42;
+}
+
+#text {
+    color: #01061d;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #fff, #ecdded, #fffdff);
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-area {
+    border-top: 2px solid #edf3f3;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.main-area {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.highlights {
+    width: 45%;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #fff, #ecdded, #fffdff);
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(41, 28, 28);
+    padding: 10px;
+}
