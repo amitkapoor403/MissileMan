@@ -53,12 +53,12 @@ a {
     border-top: 2px solid #edf3f3;
     display: flex;
     box-sizing: border-box;
+    display: flex;
 }
 
 .main-area {
     width: 50%;
     margin-left: 20px;
-    display: flex;
     margin-top: 20px;
     margin-right: 40px;
 }
@@ -69,7 +69,17 @@ a {
     background-image: linear-gradient(to right, #fff, #ecdded, #fffdff);
 }
 
+.highlights:hover {
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 800px) {
+    #text {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+    }
     .container {
         max-width: 800px;
         margin-left: auto;
@@ -95,7 +105,6 @@ a {
         font-size: 10px;
     }
 }
-
 
 footer {
     text-align: center;
